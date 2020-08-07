@@ -74,13 +74,15 @@ article img {
   float: right;
   padding: 5px 15px 5px 15px;
   background-color: #F9F4BA;
+  border-radius: 30px;
+  
 }
 aside {
   border-radius: 15px;
   background-color: #496E6C;
   /*border: 1px solid green;*/
   height: 415px;
-  width: 270px;
+  width: 275px;
   float: right;
   }
 aside header {
@@ -97,7 +99,7 @@ aside header {
 }
 aside h1 {
   text-align: center;
-  font-size: 18px;
+  font-size: 16px;
   color: #FFFFFF;
   padding: 5px 7px 5px 7px;
 }
@@ -130,5 +132,4 @@ footer h1 {
   text-align: center;
   color: #FFFFFF;
   font-size: 12px;
-
 }
