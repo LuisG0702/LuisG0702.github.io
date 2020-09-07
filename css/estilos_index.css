@@ -1,17 +1,49 @@
 main {
+  border: 1px solid blue;
   height:700px;
   width: 800px;
   margin: auto;
 }
 header {
+  border: 1px solid green;
   height:150px;
   width: 800px;
+  text-align: center;
 }
 nav {
-  height:50px;
+  border: 1px solid red;
+  height:40px;
   width: 800px;
 }
+nav ul {
+  list-style: none;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+}
+nav ul li {
+  padding: 0px 45px 0px 45px;
+  font-size: 15px;
+}
+#tareas {
+  height:150px;
+  width: 200px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  display: flex;
+}
 section {
-  height:200px;
-  width: 400px;
+  border: 1px solid brown;
+  height:250px;
+  width: 200px;
+  text-align: center;
+}
+article header {
+  border: 1px solid brown;
+  height:20px;
+  width: 200px;
+}
+
+section article h1 {
+font-size: 15px;
 }

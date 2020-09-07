@@ -1,0 +1,30 @@
+
+nav {
+display: flex;
+/* s */
+background-color: #000000;
+justify-content: space-between;
+padding-left: 30px;
+padding-right: 30px;
+align-items: center;
+height: 55px;
+color: #ffffff;
+}
+#lado1 {
+  display: flex;
+  flex-direction: row;
+}
+#opciones {
+  display: flex;
+  flex-direction: row-reverse;
+}
+@media only screen and (max-width: 600px) {
+  main {
+    background-color: black;
+
+  }
+  nav {
+    background-color: #ffffff;
+    color: #000000;
+  }
+}
