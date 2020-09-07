@@ -1,16 +1,17 @@
-main {
+.m {
   /*border: 1px solid blue;*/
   height:790px;
-  width: 820px;
+  width: 800px;
   margin: auto;
 }
 header {
-  /*border: 1px solid blue;*/
+  border: 1px solid blue;
   height:150px;
   width: 800px;
 }
-header img {
-  width: 100%;
+.b {
+  /*ocupar el 100% del contenedor*/
+/* width: 100% ; */
 }
 nav {
   /*border: 1px solid red;*/
@@ -100,13 +101,13 @@ article {
   width: 244px;
   float: auto;
   display: inline-block;
-  margin-bottom: 15px;
-  margin-right: 10.5px;
-  border-left: 15px;
+  /* margin-bottom: 0.5px;
+  margin-right: 0.5px;
+  border-left: 0.5px; */
   background: linear-gradient(to top, grey, white);
   text-align: center;
   /* clear: both; */
-  padding: 1px 1px 1px 1px;
+  /* padding: 1px 1px 1px 1px; */
 }
 article img {
   height: 100px;
@@ -129,7 +130,7 @@ article p {
   /* float: left; */
   color: #B2B2B2;
   background-color: #232323;
-padding: 2px 2px 2px 2px;
+/* padding: 2px 2px 2px 2px; */
 }
 footer {
   /* border: 1px solid red; */
@@ -142,8 +143,9 @@ background-color: #232323;
   border-bottom-left-radius: 15px;
   border-bottom-right-radius: 15px;
   }
-footer h1 {
+.efe {
 font-size: 13px;
 text-align: center;
 color: #929292;
+margin: 10px;
 }
