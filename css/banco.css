@@ -1,0 +1,25 @@
+
+main {
+  border: 1px solid red;
+}
+
+/* nav {
+  height: 50px;
+  background-color: #FEBD17;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+} */
+nav ul {
+  background-color: #FEBD17;
+  list-style: none;
+  text-align: center;
+  padding: 10px 0 10px 0;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+nav ul li {
+  display: inline;
+  padding: 10px 20px 10px 20px;
+  color: black;
+  font-size: 20px;
+}

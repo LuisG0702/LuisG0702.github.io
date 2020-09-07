@@ -9,10 +9,10 @@ header {
   height:150px;
   width: 800px;
 }
-.b {
-  /*ocupar el 100% del contenedor*/
-/* width: 100% ; */
-}
+/* .b {
+  ocupar el 100% del contenedor
+  width: 100% ;
+} */
 nav {
   /*border: 1px solid red;*/
   height: 50px;
