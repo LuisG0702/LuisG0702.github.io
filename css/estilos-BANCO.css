@@ -13,6 +13,10 @@ header {
   ocupar el 100% del contenedor
   width: 100% ;
 } */
+#l {
+  display: flex;
+  flex-wrap: nowrap;
+}
 nav {
   /*border: 1px solid red;*/
   height: 50px;
@@ -25,13 +29,12 @@ nav {
 nav ul {
   list-style: none;
   text-align: center;
-  padding-top: 10px;
+  /* padding-top: 10px; */
 }
 nav ul li {
-  display: inline;
-  padding: 10px 20px 10px 20px;
+  /* padding: 10px 20px 10px 20px; */
   color: black;
-  font-size: 20px;
+  /* font-size: 20px; */
 }
 aside {
   border-top-left-radius: 15px;
@@ -45,13 +48,13 @@ aside {
   float: left;
   clear: both;
   }
-  aside h3 input {
+aside h3 input {
     text-align: center;
     background: #FEBD17;
     border-radius: 5px;
     border: 2px solid black;
   }
-  aside header {
+  div div aside header {
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
     /*border: 1px solid green;*/
@@ -64,7 +67,7 @@ aside {
     color: #B2B2B2;
     background-color: #232323;
   }
-  aside article {
+  div div aside article {
   /*border-top-left-radius: 15px;
   border-top-right-radius: 15px;*/
   height: 165px;
@@ -72,7 +75,7 @@ aside {
   text-align: center;
   background-color: #B2B2B2;
   }
-  h2 section{
+  div div h2 section{
     text-align: center;
     font-size: 15px;
     background-color: #141414;
@@ -81,10 +84,10 @@ aside {
     height: 279px;
     margin-top: -17px;
   }
-  section ul li {
+  div div section ul li {
     padding: 6px 5px 6px 5px;
   }
-section {
+ div div section {
   /* border: 1px solid blue; */
   /*border-radius: 15px;*/
   height: 500px;
