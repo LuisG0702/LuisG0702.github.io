@@ -1,6 +1,6 @@
 
 main {
-  border: 1px solid red;
+  /* border: 1px solid red; */
 }
 
 /* nav {
@@ -94,29 +94,31 @@ aside h3 input {
     margin-bottom: 10px;
   }
 section ul li {
-  margin-bottom: 10px;
+  margin-bottom: 12px;
+  list-style:none;
 }
 #dv{
   {
    /* border: 1px solid red; */
    /*border-top-left-radius: 15px;
    border-top-right-radius: 15px;*/
-    height: 30px;
+    height: 170px;
    /* width: 244px; */
    float: auto;
    display: flex;
    justify-content: center;
-   /* margin-bottom: 0.5px;
-   margin-right: 0.5px;
+   text-align: center;
+   /*margin-right: 0.5px;
    border-left: 0.5px; */
-   background-color: linear-gradient(to top, grey, white) ;
+   background: linear-gradient(to top, grey, white) ;
    /* clear: both; */
    /* padding: 1px 1px 1px 1px; */
+   align-items:center;
  }
 }
 .header {
 height: 40px;
-/* width: 240px; */
+width: 100%;
 justify-content: center;
 /* margin-bottom: 20px; */
 font-size: 15px;
@@ -130,31 +132,32 @@ padding: 2px 2px 2px 2px;
   height: 100px;
   width: 125px;
   margin-top: 5px;
-  justify-content: center;
 }
 div p {
   color: black;
   text-align: center;
   display: flex;
   /* float: left; */
+  font-size: 24px;
 }
 .divfooter {
   /* border: 1px solid red; */
   /* height:80px; */
   /* width: 800px; */
   clear: both;
-  margin-top: 15px;
+  /* margin-top: 15px; */
   background-color: #232323;
-  display: inline-block;
+  display: flex;
   border-bottom-left-radius: 15px;
   border-bottom-right-radius: 15px;
   /* margin-left: 5px; */
   margin-top: 5px;
-  padding: 15px 0px 15px 0px;
+  padding: 15px 15px 15px 0px;
+  justify-content: center;
   }
   footer h1{
     font-size: 13px;
-    text-align: center;
     color: #929292;
     margin-top: 5px;
+    text-align: center;
   }
